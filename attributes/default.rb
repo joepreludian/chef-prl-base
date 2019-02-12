@@ -1,0 +1,3 @@
+node.default['openssh']['ca_keys'] = [
+  'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDTpcDKto9bXPVV+HCUGTlEsqwlBc+Ngeh/wLVmVE7WnIefiGOVq/IIIhUmUil2M5RP4QBIP2iuj1gYBdcYB+bVzpKV9/4qbiOHYV5nI6DCIpSsU9RuJzjaiMlTER7SDdWGMB1z94WxF2iiIYZerGgg0aX62ZpkUjFmDR+Nwj185ktGzd18wtAZemFxzMLnQv7kwKD6/u/BwM/kQgsh6RLLbyvszgmr0cw1GWqaqtnRtarEtEDxWOoS1aXDzhJzxJeagoblsDo/qyO/MguPNq3aALDDVHyAqK+MNgzT1iC21ka8e/H8R23Mzkv0EUy5tLFYbGl3VR1FvDbSUp4Ld4m5 joey@localhost.localdomain'
+]
