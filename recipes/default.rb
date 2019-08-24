@@ -25,6 +25,7 @@
 # THE SOFTWARE.
 #
 
+include_recipe 'prl_base::update_packages'
 include_recipe 'prl_base::create_user'
 include_recipe 'prl_base::install_tools'
 include_recipe 'prl_base::install_docker'
