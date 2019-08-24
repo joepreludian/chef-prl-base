@@ -16,9 +16,12 @@ platforms:
 
 suites:
   - name: default
+    attributes:
+      openssh:
+        server:
+          port: '22'
     run_list:
       - recipe[prl_base::default]
     verifier:
       inspec_tests:
         - test/integration/default
-    attributes:
