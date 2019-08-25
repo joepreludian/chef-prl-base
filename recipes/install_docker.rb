@@ -8,6 +8,10 @@ docker_image 'busybox' do
   action :pull
 end
 
+group 'docker' do
+  action :create
+end
+
 # docker_container 'an-echo-server' do
   # repo 'busybox'
   # port '1234:1234'

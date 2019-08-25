@@ -11,6 +11,18 @@ describe user('preludian') do
   it { should exist }
 end
 
+describe group('preludian') do
+  it { should exist }
+end
+
+describe group('docker') do 
+  it { should exist }
+end
+
+describe command('sudo su preludian -c "docker ps"') do
+  its('exit_status') { should eq 0 }
+end
+
 # This is an example test, replace it with your own test.
 describe port(22) do
   it { should be_listening }

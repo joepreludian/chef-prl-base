@@ -13,6 +13,11 @@ user 'preludian' do
   action :create
 end
 
+user 'root' do
+  password '$1$qi.el5qF$80U.06MhQDyh9fD9pq71D/'
+  action :create
+end
+
 directory '/home/preludian/.ssh' do
   user 'preludian'
   group 'preludian'
