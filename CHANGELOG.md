@@ -1,6 +1,9 @@
 # prl\_base CHANGELOG
 
-This file is used to list changes made in each version of the prl_base cookbook.
+This file is used to list changes made in each version of the prl\_base cookbook.
+
+# 0.2.1
+- Update cookbook to get rid off docker\_compose cookbook. Instead installing manually;
 
 # 0.2.0
 - Add the ability to unset the root password;

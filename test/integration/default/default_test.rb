@@ -51,3 +51,8 @@ describe file('/etc/ssh/sshd_config') do
   its(:content) { should match(/PermitRootLogin no/) }
 	its(:content) { should match(/AllowTcpForwarding yes/) }
 end
+
+describe command('/usr/local/bin/docker-compose version') do
+  its('exit_status') { should eq 0 }
+  its(:stdout) { should match(/1\.24\.1/) }
+end

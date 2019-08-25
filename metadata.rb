@@ -4,7 +4,7 @@ maintainer_email 'joepreludian@gmail.com'
 license 'MIT'
 description 'Installs/Configures prl_base'
 long_description 'Installs/Configures prl_base'
-version '0.2.0'
+version '0.2.1'
 chef_version '>= 13.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
@@ -23,4 +23,3 @@ chef_version '>= 13.0'
 depends 'openssh'
 depends 'sudo'
 depends 'docker'
-depends 'docker_compose'
